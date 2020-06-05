@@ -1,3 +1,3 @@
 
-def hello(target="World"):
-    print("Hello {}!".format(target))
+def hello(greeting="Hello", target="World"):
+    print("{} {}!".format(greeting, target))
